@@ -1,0 +1,17 @@
+#presentation{
+  background: url(../../img/background.jpeg) top center / cover no-repeat fixed;
+  position: relative;
+  z-index: 1;
+}
+
+#presentation::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+  opacity: 0.5;
+  z-index: -1;
+}
