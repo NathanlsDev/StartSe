@@ -1,0 +1,14 @@
+:root{
+  /*Cores*/
+  --white: white;
+  --yellow: gold;
+  --black: rgba(0, 0, 0, 0.712);
+  --purple: #5a10b5;
+  --dark-purple: #002349;
+  --dark-gray: #29323c;
+  --light-gray: #485563;
+      
+  /*fonte*/
+  --font-poppins: 'Poppins', sans-serif;
+
+}
